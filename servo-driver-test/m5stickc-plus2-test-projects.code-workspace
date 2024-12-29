@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "servo-driver-test",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
