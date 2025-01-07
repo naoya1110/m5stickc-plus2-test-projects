@@ -31,6 +31,7 @@ void setup() {
         Serial.println("Cannot initialize M5 Unit 8SERVO.");
         delay(100);
     }
+    unit_8servo.setAllPinMode(SERVO_CTL_MODE);
 
     // 出力設定
     pinMode(LED, OUTPUT);    // 本体LED赤
